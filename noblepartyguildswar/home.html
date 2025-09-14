@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guilds War</title>
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="img/icons/logo-tab.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="img/icons/logo-tab.png" sizes="16x16">
+	
+    <!-- main css -->
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/responsive.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header id="main-header" class="container-fluid">
+    <div class="mobile-nav ">
+        <img src="img/icons/logo.png" alt="rick and morty logo">
+        <p class="toggle-nav">&#10094;</p>
+    </div>
+    <nav>
+        <ul>
+            <li class="brand"><img src="img/icons/logo.png" alt="logo_npgw"></li>
+            <li class="active"><a href="#home">Benvenuti</a></li>
+            <li><a href="#notizie">In Evidenza</a></li>
+            <li><a href="#character-profile">Game On</a></li> <!-- leave as "character-profile" still need to be worked on CSS -->
+        </ul>
+    </nav>
+
+</header>
+<main>
+
+	<!-- home section with a single image -->
+	<section id="home" class="container-fluid slider">
+		<figure>
+			<img src="img/slider/guilds_world.png" alt="world">
+		</figure>
+		<article class="slide-caption center-left">
+			<h1>Guilds War</h1>
+			<p><i>Noble Party Guilds War</i>, un Evento ideato da NobleBrassMan e organizzato da BOXALMATCH. [Torna alla <i><a href="../index.html" title="tornaHP">Home</a></i>]</p>
+		</article>
+	</section>
+
+    <!-- season info -->
+	<section id="notizie" class="container">
+		<h1 class="highlight">In Evidenza</h1>
+
+		<article class="season">
+			<h2>Introduzione</h2>
+			<p class="description">
+				<i>Noble Party Guilds War</i>,
+				un Campionato su Halo Infinite per rivivere la storia
+				delle Guerre di Otto Gilde appartenenti alla stessa Famiglia.
+				&#129309;SCEGLI la tua Gilda
+				&#129338;FORGIA una nuova leggenda 
+				&#127942;conquista la VITTORIA!	
+			</p>
+
+			<h2>Info</h2>
+			<p>
+				Sei pronto per questa una avventura? <i>Noble Party Guilds War</i>, un Evento ideato da NobleBrassMan e organizzato da BOXALMATCH.
+				Un Campionato su <i>Halo Infinite</i> (Xbox Series X e PC) che riscrive una storia fantasy di una famiglia nel Multiverso (della Forgia).
+				Infinite possibilit&agrave di scontro dove vecchi e nuovi giocatori si uniscono in squadre e combattono fra loro.
+				Immergiti in un gioco che permette qualsiasi sfida immaginaibile per divertirsi insieme e aggiungere un pizzico di competitivit&agrave.
+				Ad ogni Guerra, unisciti a una delle 8 Squadre, ottieni punti e vinci! Questo Campionato raccoglie +80 mappe, +20 modalit&agrave, +10 giochi sketch e molto altro.
+			</p>
+
+			<h2>Notizie Recenti</h2>
+			<div role="group" class="episodes">
+				<!-- Episode counter -->
+				<div class="episode-number">No. #1</div>
+
+				<!-- Episode 1 -->
+				<figure class="episode">
+					<img src="img/HP/news_1.png" alt="news_1">
+				</figure>
+
+				<!-- Episode 2 -->
+				<figure class="episode">
+					<img src="img/HP/news_2.png" alt="news_2">
+<!-- 					<figcaption> -->
+<!-- 						Guerra Conclusa!! -->
+<!-- 					</figcaption> -->
+				</figure>
+
+				<!-- Episode controls -->
+				<div class="controls">
+					<button class="prev" onclick="prevEp(this)">&#10094;</button>
+					<button class="next" onclick="nextEp(this)">&#10095;</button>
+				</div>
+			</div>
+
+			<h2>Partecipanti</h2>
+			<p>
+				Questi sono i partecipanti di <i>Noble Party Guilds War</i>.
+				Non ci sono scadenze per unirsi a questo Campionato: invita nuovi giocatori che saranno classificati come Leaders o Mercenari.
+			</p>
+			<div role="group" class="episodes">
+				<!-- Episode counter -->
+				<div class="episode-number">No. #1</div>
+
+				<!-- Episode 1 -->
+				<figure class="episode">
+					<img src="img/HP/partecipanti.png" alt="partecipanti">
+				</figure>
+
+				<!-- Episode controls -->
+				<div class="controls">
+					<button class="prev">&#9746;</button>
+					<button class="next">&#9746;</button>
+				</div>
+			</div>
+			
+			<h2>Campagna Ufficiale</h2>
+			<p>
+				Il Campionata si conclude quando tutte le Guerre di questa Campagna Ufficiale sono concluse.
+				Una Guerra si conclude esponendo il punteggio finale.
+				Il Capitolo 5 e Capitolo 6 sono due partite della ultima Guerra dove tutte le Gilde parteciperanno.
+			</p>			
+			<div role="group" class="episodes">
+				<!-- Episode counter -->
+				<div class="episode-number">No. #1</div>
+
+				<!-- Episode 1 -->
+				<figure class="episode">
+					<img src="img/HP/tot_camp_1.png" alt="tabellone 1">
+				</figure>
+
+				<!-- Episode 2 -->
+				<figure class="episode">
+					<img src="img/HP/tot_camp_2.png" alt="tabellone 2">
+				</figure>
+
+				<!-- Episode 3 -->
+				<figure class="episode">
+					<img src="img/HP/tot_camp_3.png" alt="tabellone 3">
+				</figure>
+				
+				<!-- Episode 4 -->
+				<figure class="episode">
+					<img src="img/HP/tot_camp_4.png" alt="tabellone 4">
+				</figure>				
+
+				<!-- Episode controls -->
+				<div class="controls">
+					<button class="prev" onclick="prevEp(this)">&#10094;</button>
+					<button class="next" onclick="nextEp(this)">&#10095;</button>
+				</div>
+			</div>			
+			
+			<h2>Guerre Irripetibili</h2>
+			<p>
+				Quando una qualsiasi Gilda propone una nuova Guerra per la sua Side Quest,
+				deve controllare che non &egrave avvenuta precedentemente o gi&agrave programmata.
+			</p>			
+			<div role="group" class="episodes">
+				<!-- Episode counter -->
+				<div class="episode-number">No. #1</div>
+
+				<!-- Episode 1 -->
+				<figure class="episode">
+					<img src="img/HP/tutte_le_guerre.png" alt="guerre">
+				</figure>
+
+				<!-- Episode controls -->
+				<div class="controls">
+					<button class="prev">&#9746;</button>
+					<button class="next">&#9746;</button>
+				</div>
+			</div>			
+			<p class="description">
+				&#128073;Qualsiasi Capitolo di qualsiasi Side Quest concluso dopo
+				la fine del Campionato non viene considerato per gli Awards.
+				(Completa la tua Side Quest prima che il Campionato finisca!)
+			</p>	
+			
+			
+		</article>
+
+	</section>
+
+    <!-- characters -->
+    <section id="character-profile" class="container">
+        <h1 class="highlight">Game On</h1>
+
+        <article class="character">
+
+            <figure>
+                <img src="img/game_on/regolamento.png" alt="regolamento">
+            </figure>
+
+            <section class="character-bio">
+                <h1 class="mb-1">Rules!</h1>
+                <p>Prima di giocare ricordati di leggere il <i><a href="regolamento.html" title="Rules">Regolamento</a></i>.
+            </section>
+
+        </article>
+
+        <article class="character">
+
+            <figure>
+                <img src="img/game_on/gilde.png" alt="gilde">
+            </figure>
+
+            <section class="character-bio">
+                <h1 class="mb-1">Scegli la tua Gilda</h1>
+                <p>
+				Gilda <i><a href="ade.html" title="Ade">Ade</a></i>, Gilda <i><a href="aquila.html" title="Aquila">Aquila</a></i>, 
+				Gilda <i><a href="bastione.html" title="Bastione">Bastione</a></i>, 
+				Gilda <i><a href="cobra.html" title="Cobra">Cobra</a></i>, 
+				Gilda <i><a href="pericolo.html" title="Pericolo">Pericolo</a></i>, 
+				Gilda <i><a href="sciabola.html" title="Sciabola">Sciabola</a></i>, 
+				Gilda <i><a href="valchiria.html" title="Valchiria">Valchiria</a></i>, 
+				Gilda <i><a href="valore.html" title="Valore">Valore</a></i>.
+				</p>
+            </section>
+
+        </article>
+
+        <article class="character">
+
+            <figure>
+                <img src="img/game_on/backlog.png" alt="awards">
+            </figure>
+
+            <section class="character-bio">
+                <h1 class="mb-1">Backlog</h1>
+                <p>Ogni Gilda accede alla <i><a href="backlog.html" title="Rules">Backlog</a></i> a piacere.
+				</p>
+            </section>
+
+        </article>	
+		
+        <article class="character">
+
+            <figure>
+                <img src="img/game_on/awards.png" alt="awards">
+            </figure>
+
+            <section class="character-bio">
+                <h1 class="mb-1">Awards</h1>
+                <p>I vincitori di questo Campionato e informazioni sul punteggio sono su <i><a href="awards.html" title="awards">Awards</a></i>.
+				</p>
+            </section>
+
+        </article>		
+		
+        <article class="character">
+
+            <figure>
+                <img src="img/game_on/storia.png" alt="storia">
+            </figure>
+
+            <section class="character-bio">
+                <h1 class="mb-1">Storia</h1>
+                <p>La storia dietro a questo Campionato la trovi su <i><a href="storia.html" title="Aetherium">Aetherium Lore</a></i>.
+				</p>
+            </section>
+
+        </article>	
+		
+    </section>
+
+</main>
+
+<footer>
+    &copy; Tutti i diritti riservati – BOXALMATCH<br>
+    Un gruppo di amici con la passione per l’intrattenimento collettivo.<br>
+    Seguici su <a href="https://www.instagram.com/boxalmatch/">Instagram</a> e <a href="https://www.youtube.com/@BOXALMATCH">YouTube</a><br><br>
+    
+    Evento <strong>Noble Party Guilds War</strong> ideato da <span style="font-weight:bold;">NobleBrassMan</span> 
+    insieme a BOXALMATCH.<br><br>
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

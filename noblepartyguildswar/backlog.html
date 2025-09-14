@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backlog</title>
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="img/icons/backlog-tab.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="img/icons/backlog-tab.png" sizes="16x16">
+	
+    <!-- main css -->
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/responsive.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header id="main-header" class="container-fluid">
+    <div class="mobile-nav ">
+        <img src="img/icons/logo.png" alt="rick and morty logo">
+        <p class="toggle-nav">&#10094;</p>
+    </div>
+    <nav>
+        <ul>
+            <li class="brand"><img src="img/icons/logo.png" alt="rick and morty logo"></li>
+            <li class="active"><a href="#home">Backlog</a></li>
+            <li><a href="#liste">Liste</a></li>
+            <li><a href="#character-profile">Game On</a></li> 			
+        </ul>
+    </nav>
+
+</header>
+<main>
+
+	<!-- home section with a single image -->
+	<section id="home" class="container-fluid slider">
+		<figure>
+			<img src="img/game_on/backlog.png" alt="backlog_compasso">
+		</figure>
+		<article class="slide-caption center-left">
+			<h1>Backlog</h1>
+			<p>
+			In questa pagina trovete tutto quello che ogni Gilda utilizza a propria scelta durante il Campionato <i>Noble Party Guilds War</i>. [Torna alla <i><a href="home.html" title="Bastione1">Home</a></i>]
+			</p>
+		</article>
+	</section>
+
+    <!-- season info -->
+	<section id="liste" class="container">
+		<h1 class="lists">Liste per le Gilde</h1>
+
+		<article class="season">
+			<h2>Informazioni</h2>
+			<p class="description">
+				Queste sono le liste che ogni Gilda o Armata utilizza a piacere durante il loro turno nelle Guerre.
+			</p>
+
+			<h2>Lista Mappe</h2>
+			<p class="description">
+				Lista di mappe addizionali che ogni Gilda o Armata utilizza a piacere durante il loro turno.
+			</p>			
+			<div role="group" class="episodes">
+				<!-- Episode counter -->
+				<div class="episode-number">No. #1</div>
+
+				<!-- Episode 1 -->
+				<figure class="episode">
+					<img src="img/backlog/mappe_1.png" alt="mappe_1">
+				</figure>
+				
+				<!-- Episode 2 -->
+				<figure class="episode">
+					<img src="img/backlog/mappe_2.png" alt="mappe_2">
+				</figure>
+
+				<!-- Episode 3 -->
+				<figure class="episode">
+					<img src="img/backlog/mappe_3.png" alt="mappe_3">
+				</figure>
+
+				<!-- Episode 4 -->
+				<figure class="episode">
+					<img src="img/backlog/mappe_4.png" alt="mappe_4">
+				</figure>
+
+				<!-- Episode 5 -->
+				<figure class="episode">
+					<img src="img/backlog/mappe_5.png" alt="mappe_5">
+				</figure>
+
+				<!-- Episode 6 -->
+				<figure class="episode">
+					<img src="img/backlog/mappe_6.png" alt="mappe_6">
+				</figure>
+
+				<!-- Episode 7 -->
+				<figure class="episode">
+					<img src="img/backlog/mappe_7.png" alt="mappe_7">
+				</figure>
+
+				<!-- Episode 8 -->
+				<figure class="episode">
+					<img src="img/backlog/mappe_8.png" alt="mappe_8">
+				</figure>				
+
+
+				<!-- Episode controls -->
+				<div class="controls">
+					<button class="prev" onclick="prevEp(this)">&#10094;</button>
+					<button class="next" onclick="nextEp(this)">&#10095;</button>
+				</div>
+			</div>
+
+			<h2>Lista Champions Fortnite (Battle Royale)</h2>
+			<p class="description">
+				Lista di Champions che ogni Gilda o Armata utilizza a piacere durante il
+				loro turno se sceglie una partita Champions Fortnite (Battle Royale).
+				Questa scelta ha una combo di Mode+Mappa e non puoi applicare Arsenale della Gilda.
+			</p>					
+			<div role="group" class="episodes">
+				<!-- Episode counter -->
+				<div class="episode-number">No. #1</div>
+
+				<!-- Episode 1 -->
+				<figure class="episode">
+					<img src="img/backlog/champions_fortnite.png" alt="champions_fortnite">
+				</figure>
+
+
+				<!-- Episode controls NULLI -->
+				<div class="controls">
+					<button class="prev">&#9746;</button>
+					<button class="next">&#9746;</button>
+				</div>
+			</div>		
+
+			<h2>Lista WARCRAFT (Social)</h2>
+			<p class="description">
+				Lista di Social addizionali che ogni Gilda o Armata utilizza a piacere durante il loro turno.
+			</p>			
+			<div role="group" class="episodes">
+				<!-- Episode counter -->
+				<div class="episode-number">No. #1</div>
+
+				<!-- Episode 1 -->
+				<figure class="episode">
+					<img src="img/backlog/social_1.png" alt="bkl_social_1">
+				</figure>
+
+				<!-- Episode 2 -->
+				<figure class="episode">
+					<img src="img/backlog/social_2.png" alt="bkl_social_2">
+				</figure>
+
+				<!-- Episode controls -->
+				<div class="controls">
+					<button class="prev" onclick="prevEp(this)">&#10094;</button>
+					<button class="next" onclick="nextEp(this)">&#10095;</button>
+				</div>
+			</div>
+
+			<h2>Lista RUZZO (Sketch) </h2>
+			<p class="description">
+				Lista di Sketch, quindi Mode+Mappa, che ogni Gilda o Armata utilizza a
+				piacere durante il loro turno se sceglie una partita Sketch.
+			</p>					
+			<div role="group" class="episodes">
+				<!-- Episode counter -->
+				<div class="episode-number">No. #1</div>
+
+				<!-- Episode 1 -->
+				<figure class="episode">
+					<img src="img/backlog/sketch_1.png" alt="bkg_sketch_1">
+				</figure>
+				
+				<!-- Episode 2 -->
+				<figure class="episode">
+					<img src="img/backlog/sketch_2.png" alt="bkg_sketch_2">
+				</figure>
+
+				<!-- Episode 3 -->
+				<figure class="episode">
+					<img src="img/backlog/sketch_3.png" alt="bkg_sketch_3">
+				</figure>
+
+				<!-- Episode 4 -->
+				<figure class="episode">
+					<img src="img/backlog/sketch_4.png" alt="bkg_sketch_4">
+				</figure>
+
+				<!-- Episode 5 -->
+				<figure class="episode">
+					<img src="img/backlog/sketch_5.png" alt="bkg_sketch_5">
+				</figure>
+
+				<!-- Episode 6 -->
+				<figure class="episode">
+					<img src="img/backlog/sketch_6.png" alt="bkg_sketch_6">
+				</figure>				
+
+
+				<!-- Episode controls -->
+				<div class="controls">
+					<button class="prev" onclick="prevEp(this)">&#10094;</button>
+					<button class="next" onclick="nextEp(this)">&#10095;</button>
+				</div>
+			</div>			
+			
+		</article>
+	</section>
+
+    <!-- characters -->
+    <section id="character-profile" class="container">
+        <h1 class="highlight">Game On</h1>
+
+        <article class="character">
+
+            <figure>
+                <img src="img/game_on/regolamento.png" alt="regolamento">
+            </figure>
+
+            <section class="character-bio">
+                <h1 class="mb-1">Rules!</h1>
+                <p>Prima di giocare ricordati di leggere il <i><a href="regolamento.html" title="Rules">Regolamento</a></i>.
+            </section>
+
+        </article>
+
+        <article class="character">
+
+            <figure>
+                <img src="img/game_on/gilde.png" alt="gilde">
+            </figure>
+
+            <section class="character-bio">
+                <h1 class="mb-1">Scegli la tua Gilda</h1>
+                <p>
+				Gilda <i><a href="ade.html" title="Ade">Ade</a></i>, Gilda <i><a href="aquila.html" title="Aquila">Aquila</a></i>, 
+				Gilda <i><a href="bastione.html" title="Bastione">Bastione</a></i>, 
+				Gilda <i><a href="cobra.html" title="Cobra">Cobra</a></i>, 
+				Gilda <i><a href="pericolo.html" title="Pericolo">Pericolo</a></i>, 
+				Gilda <i><a href="sciabola.html" title="Sciabola">Sciabola</a></i>, 
+				Gilda <i><a href="valchiria.html" title="Valchiria">Valchiria</a></i>, 
+				Gilda <i><a href="valore.html" title="Valore">Valore</a></i>.
+				</p>
+            </section>
+
+        </article>
+
+		
+    </section>
+
+</main>
+
+<footer>
+    &copy; Tutti i diritti riservati – BOXALMATCH<br>
+    Un gruppo di amici con la passione per l’intrattenimento collettivo.<br>
+    Seguici su <a href="https://www.instagram.com/boxalmatch/">Instagram</a> e <a href="https://www.youtube.com/@BOXALMATCH">YouTube</a><br><br>
+    
+    Evento <strong>Noble Party Guilds War</strong> ideato da <span style="font-weight:bold;">NobleBrassMan</span> 
+    insieme a BOXALMATCH.<br><br>
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
