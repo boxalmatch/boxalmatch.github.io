@@ -407,9 +407,7 @@
 				Tutti i fattori sono stati nascosti ai partecipanti,
 				per&ograve mettiamo alla luce alcuni esempi per dare una idea.
 			</p>
-
-			<h2>Fattori</h2>		
-
+			
 			<table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; width: 90%; text-align: left; font-family: Arial, sans-serif; border: 2px solid black;">
 			  <thead style="background-color: #228B22; color: black;">
 				<tr>
@@ -474,12 +472,16 @@
 			  </tbody>
 			</table>
 			
-			<h2>Da Fattori a Punti</h2>
 			<p class="description">
 				Quando una Gilda (o Armata) finisce una partita ottiene La Valutazione.
                 Abbiamo detto che La Valutazione = una serie di Fattori.
 				La Valutazione viene applicata ugualmente a tutti i giocatori di quella Gilda
                 (o Armata) e quindi diventa Punti per i giocatori. 
+			</p>		
+			
+			<h2>Punti per Panchina</h2>
+
+			<p class="description">
 				Nel caso di giocatori in "Panchina" (Champions e Sayans), essi prendono un p&ograve meno punti dei giocatori in gioco.
 				Fuori dalla Partita non vengono proprio considerati per i punteggi.
 			</p>		
@@ -505,7 +507,7 @@
 
 				<tr>
 				  <td style="background-color: white; color: black; border: 2px solid black;">
-					Fuori dalla Partita (Osservatore ma non in Panchina oppure fuori dalla Lobby)
+					Fuori dalla Partita (Osservatore ma non in Panchina, oppure fuori dalla Lobby)
 				  </td>
 				  <td style="background-color: #FF8C00; color: white; border: 2px solid black;">Nessun Punteggio/Valutazione viene assegnata.</td>
 				</tr>				  
@@ -513,13 +515,115 @@
 			  </tbody>
 			</table>					
 
-			<h2>Punti per tipo Partita e Composizione Gilda</h2>
+			<h2>Influenza Composizione Gilda sul Punteggio</h2>
 
 			<p class="description">
-				Qui mostriamo i punti assegnati quando viene scelta un partita per tutte le possibili combinazioni:
-				TS/FFA/MTS, Social/Standard/Sketch/Champions, Sayans.
-				Questi punti sono pure dipendenti dalla composizione della Gilda in partita:
+				Qui mostriamo l'influenza sui punti dalla composizione della Gilda in partita:
 				Solo Mercenari, Solo Leaders, 1 Leader + Mercenari, 2 o pi&ugrave Leaders e Mercenari.
+			</p>
+
+			<table border="1" cellspacing="0" cellpadding="8" 
+				   style="border-collapse: collapse; width: 90%; text-align: left; font-family: Arial, sans-serif; border: 2px solid black;">
+
+			  <thead style="background-color: #228B22; color: black;">
+				<tr>
+				  <th style="border: 2px solid black;">Composizione Gilda in Partita</th>
+				  <th style="border: 2px solid black;">Importanza</th>
+				</tr>
+			  </thead>
+
+			  <tbody>
+
+				  <tr>
+				  <td style="background-color: white; color: black; border: 2px solid black;">
+					1 Leader + Mercenari
+				  </td>
+				  <td style="background-color: #FF8C00; color: white; border: 2px solid black;">La pi&ugrave Prestigiosa</td>
+				</tr>
+
+				<tr>
+				  <td style="background-color: white; color: black; border: 2px solid black;">
+					2 Leader + Mercenari
+				  </td>
+				  <td style="background-color: #FF8C00; color: white; border: 2px solid black;">Prestigiosa</td>
+				</tr>				  
+
+				<tr>
+				  <td style="background-color: white; color: black; border: 2px solid black;">
+					Solo Mercenari
+				  </td>
+				  <td style="background-color: #FF8C00; color: white; border: 2px solid black;">Poco Prestigiosa</td>
+				</tr>
+
+				<tr>
+				  <td style="background-color: white; color: black; border: 2px solid black;">
+					Solo Leaders
+				  </td>
+				  <td style="background-color: #FF8C00; color: white; border: 2px solid black;">La Meno Prestigiosa</td>
+				</tr>				  
+				  
+			  </tbody>
+			</table>	
+
+			<p class="description">
+				La Modalit&agrave Champions deve presentare in partita solo Mercenari o solo Leaders e, 
+				in entrambi casi, allo stesso modo, risulta nel prestigio.
+			</p>
+
+			<table border="1" cellspacing="0" cellpadding="8" 
+				   style="border-collapse: collapse; width: 90%; text-align: left; font-family: Arial, sans-serif; border: 2px solid black;">
+
+			  <thead style="background-color: #228B22; color: black;">
+				<tr>
+				  <th style="border: 2px solid black;">Composizione Gilda in Partita (il Mio Campione / Champions)</th>
+				  <th style="border: 2px solid black;">Importanza</th>
+				</tr>
+			  </thead>
+
+			  <tbody>
+				<tr>
+				  <td style="background-color: white; color: black; border: 2px solid black;">
+					Solo Mercenari o Solo Leaders
+				  </td>
+				  <td style="background-color: #FF8C00; color: white; border: 2px solid black;">Prestigiossima</td>
+				</tr>		  
+				  
+			  </tbody>
+			</table>	
+
+			<p class="description">
+				Se una Gilda presenta pi&ugrave Leaders rispetto ad una altra / alle altre: 
+				questo &egrave acconsentito ma risulta in uno svantaggio di punteggio.
+			</p>
+
+			<table border="1" cellspacing="0" cellpadding="8" 
+				   style="border-collapse: collapse; width: 90%; text-align: left; font-family: Arial, sans-serif; border: 2px solid black;">
+
+			  <thead style="background-color: #228B22; color: black;">
+				<tr>
+				  <th style="border: 2px solid black;">Composizione Gilda e la sua Panchina</th>
+				  <th style="border: 2px solid black;">Punteggio</th>
+				</tr>
+			  </thead>
+
+			  <tbody>
+				<tr>
+				  <td style="background-color: white; color: black; border: 2px solid black;">
+					Essa ha pi&ugrave Leaders delle altre Gilde
+				  </td>
+				  <td style="background-color: #FF8C00; color: white; border: 2px solid black;">-1</td>
+				</tr>		  
+				  
+			  </tbody>
+			</table>				
+
+			<h2>Punti per tipo Partita</h2>
+			
+			<p class="description">
+				Qui mostriamo i punti assegnati quando viene scelta un partita per tutte le possibili combinazioni: 
+				(TS/FFA/MTS, Social/Standard/Sketch/Champions, Sayans). 
+				Questi punti sono pure dipendenti dalla Composizione della Gilda.
+				
 				<br><br>
 				Ancora da mostrare qui sul sito per non influenzare troppo le scelte delle partite basandosi solo esclusivamente sui punteggi.
 			</p>
