@@ -8,6 +8,89 @@
 
 }
 
+/* ===== TABLE ACCESSO ===== */
+.guild-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+	background:white;
+	color:black;
+}
+
+.guild-table th,
+.guild-table td {
+    border: 1px solid #999;
+    padding: 4px;
+}
+
+.guild-table tr td:nth-child(9) {
+    border-right: 2px solid black;
+}
+
+.guild-table tr td:nth-child(13) {
+    border-right: 2px solid black;
+}
+
+/* ===== HEADERS ===== */
+.top-title {
+    background: #228B22;
+    font-weight: bold;
+	color: black;
+}
+.sub-header {
+    background: #D3D3D3;
+    font-weight: bold;
+}
+
+/* ===== GUILD COLORS ===== */
+.ad { background:#9c27b0;}
+.aq { background:#3f51b5;}
+.b  { background:#2e7d32;}
+.c  { background:#8bc34a;}
+.p  { background:#e53935}
+.s  { background:#ff9800;}
+.vk { background:#26a69a;}
+.va { background:#fdd835;}
+
+/* ===== STATUS CELLS ===== */
+.ok { background:#c8e6c9; font-weight:bold; }
+.na { background:white; }
+.highlight { background:#fff3cd; }
+
+/* ===== PLAYER COLORS (examples – extend as needed) ===== */
+.baudo { background:#3f51b5; color:white; }
+.colt { background:#2e7d32; color:white; }
+.copter { background:#8d6e00; color:white; }
+.drius { background:#4dd0e1; color:white; }
+.karmic { background:#ff9800; color:white; }
+.noble { background:#ffc107; color:white; }
+.puffo { background:#f44336; color:white; }
+.swine { background:#673ab7; color:white; }
+
+.mercenario { background:#555; color:white; }
+.leader { background:black; color:white; }
+
+
+.trimrex { background:black; color:red; }
+.socrem { background:#555; color:red; }
+.deadrick { background:black; color:red; }
+.joemoo { background:#555; color:red; }
+.bibobio { background:#555; color:red; }
+.apocal { background:#555; color:red; }
+
+
+.value-yellow {
+    background-color: #fff3cd;
+}
+
+.value-green {
+    background-color: #c8e6c9;
+}
+
+/* ========== */
+
 .mobile-nav {
     display: none;
 }
