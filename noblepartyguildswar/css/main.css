@@ -34,15 +34,17 @@
 }
 
 /* ===== HEADERS ===== */
-.top-title {
+guild-table .top-title {
     background: #228B22;
     font-weight: bold;
-	color: black;
+    color: black;
 }
-.sub-header {
+
+.guild-table .sub-header {
     background: #D3D3D3;
     font-weight: bold;
 }
+
 
 /* ===== GUILD COLORS ===== */
 .ad { background:#9c27b0;}
