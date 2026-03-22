@@ -8,6 +8,87 @@
 
 }
 
+
+/* SOLO per la tabella Giocato Con */
+#giocatoTable {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+#giocatoTable th, #giocatoTable td {
+  border: 1px solid #333;
+  padding: 5px;
+}
+
+/* Intestazioni speciali */
+#giocatoTable .header-special { background-color: black; color: white; }
+#giocatoTable .header-normal { background-color: #555; color: white; }
+
+/* Celle valori */
+#giocatoTable .value-x { background-color: white; }
+#giocatoTable .value-0 { background-color: #b2dfff; }       /* celestino */
+#giocatoTable .value-1-9 { background-color: #c7f0c7; }     /* verdolino chiaro */
+#giocatoTable .value-5-10 { background-color: #ffd8a6; }    /* arancione chiaro */
+#giocatoTable .value-11plus { background-color: #ff9999; }  /* rosso chiaro */
+#giocatoTable .value-21plus { background-color: #8B0000; color: white;}  /* dark red */
+
+
+/* Prima cella vuota e intestazioni ruotate */
+#giocatoTable th {
+  writing-mode: vertical-rl; /* scrive verticale dal basso verso l'alto */
+  transform: rotate(180deg);  /* per ruotare verso il basso */
+  padding: 5px;
+  white-space: nowrap;
+}
+
+#giocatoTable .vertical-text {
+  writing-mode: vertical-rl;
+  transform: rotate(0deg);
+  white-space: nowrap;
+}
+
+/* SOLO per la tabella Giocato Contro */
+#giocatoCONTROTable {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+#giocatoCONTROTable th, #giocatoCONTROTable td {
+  border: 1px solid #333;
+  padding: 5px;
+}
+
+
+/* Intestazioni speciali */
+#giocatoCONTROTable .header-special { background-color: black; color: white; }
+#giocatoCONTROTable .header-normal { background-color: #555; color: white; }
+
+/* Celle valori */
+#giocatoCONTROTable .value-x { background-color: white; }
+#giocatoCONTROTable .value-0 { background-color: #b2dfff; }       /* celestino */
+#giocatoCONTROTable .value-1-9 { background-color: #c7f0c7; }     /* verdolino chiaro */
+#giocatoCONTROTable .value-5-10 { background-color: #ffd8a6; }    /* arancione chiaro */
+#giocatoCONTROTable .value-11plus { background-color: #ff9999; }  /* rosso chiaro */
+#giocatoCONTROTable .value-21plus { background-color: #FF0000; color: white;}  /* dark red */
+
+
+/* Prima cella vuota e intestazioni ruotate */
+#giocatoCONTROTable th {
+  writing-mode: vertical-rl; /* scrive verticale dal basso verso l'alto */
+  transform: rotate(180deg);  /* per ruotare verso il basso */
+  padding: 5px;
+  white-space: nowrap;
+}
+
+#giocatoCONTROTable .vertical-text {
+  writing-mode: vertical-rl;
+  transform: rotate(0deg);
+  white-space: nowrap;
+}
+
+
 /* ===== TABLE ACCESSO ===== */
 .guild-table {
     border-collapse: collapse;
