@@ -158,9 +158,9 @@ table.appendChild(thead);
 const tbody = document.createElement("tbody");
 
 // Giocatori con classi “speciali” CSS
-const normalPlayers = ["baudo","colt","copter","drius","karmic","noble","puffo","swine"];
-const leaderPlayers = ["trimrex","deadrick"];
-const specialPlayers = ["socrem","joemoo","bibobio","apocal"];
+const normalPlayers = ["baudo","colt","copter","drius","karmic","noble","puffo","swine","joemoo","apocal"];
+const leaderPlayers = [];
+const specialPlayers = ["socrem","bibobio","trimrex","deadrick"];
 
 // Celle che rappresentano i titoli gilde
 const GUILD_TITLES = ["Ad","Aq","B","C","P","S","Vk","Va"];
